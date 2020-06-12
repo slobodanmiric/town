@@ -66,6 +66,7 @@ header h4 {
 header h5 {
     font-size: 1.1rem;
     padding-top: 20px;
+    letter-spacing: 1px;
 }
 
 /********** INTRODUCTION ***********/
