@@ -206,6 +206,56 @@ header h5 {
     color: var(--bela);
 }
 /********** FOOTER ***********/
+footer {
+    background-image: url(img/footer.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    padding: var(--padding);
+    color: var(--bela);
+}
+footer h2 {
+    font-size: 4rem;
+    border-bottom: 10px solid var(--bela);
+    display: inline-block;
+    position: relative;
+    top: 10px;
+}
+footer hr {
+    background: var(--bela);
+    border: none;
+    height: 1px;
+    margin-bottom: 30px;
+}
+footer p {
+    font-size: 1.3rem;
+}
+footer .row  {
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .row article {
+    flex: 0 0 50%;
+    font-size: 1.7rem;
+    padding: 50px;
+}
+footer input[type="email"] {
+    padding: 10px;
+    font-size: 18px;
+}
+footer button {
+    padding: 12px 30px;
+    background: var(--plava);
+    border: none;
+    color: var(--bela);
+    font-size: 1.2rem;
+    position: relative;
+    left: -10px;
+}
+
+
+
+
 
 @media(max-width: 768px) {
     
