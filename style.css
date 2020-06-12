@@ -18,7 +18,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
 }
-
+.container {
+    width: 90%;
+    margin: auto;
+}
 /********** HEADER ***********/
 header {
     background-image: url(img/header.jpg);
@@ -70,7 +73,45 @@ header h5 {
 }
 
 /********** INTRODUCTION ***********/
-
+.introduction img {
+    width: 100%;
+}
+.introduction {
+    display: flex;
+    padding: var(--padding);
+}
+.introduction .col {
+    flex: 1;
+}
+.introduction .col:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px
+}
+.introduction h2 {
+    font-size: 3rem;
+    color: var(--plava);
+    padding-bottom: 10px;
+}
+.introduction p {
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+}
+.introduction button {
+    width: 250px;
+    background: var(--plava);
+    color: var(--bela);
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+}
+.introduction button:hover {
+    background: var(--tamnoSiva);
+    cursor: pointer;
+    transition: .4s ease;
+}
 /********** SERVICES ***********/
 
 /********** WORKS ***********/
