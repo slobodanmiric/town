@@ -20,6 +20,53 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /********** HEADER ***********/
+header {
+    background-image: url(img/header.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 0 50px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+nav ul li a {
+    text-decoration: none;
+    color: var(--bela);
+    text-transform: uppercase;
+    margin-left: 60px;
+    letter-spacing: 2px;
+}
+.logo {
+    color: var(--bela);
+    font-size: 2rem;
+    text-decoration: none;
+}
+header hgroup {
+    color: var(--bela);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+header h2 {
+    font-size: 5rem;
+    text-shadow: 3px 3px 16px black;
+}
+header h4 {
+    font-size: 2rem;
+}
+header h5 {
+    font-size: 1.1rem;
+    padding-top: 20px;
+}
 
 /********** INTRODUCTION ***********/
 
